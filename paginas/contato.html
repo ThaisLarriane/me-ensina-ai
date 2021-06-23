@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <header>
+        <span id="logo" >  <div>Me</div>  <strong>ENSINA</strong>  <div>aí</div>  </span>
+    </header>
+
+    <nav>
+        <section id="navegação">
+            <section class="menu">
+                <a href="../index.html">Home</a>
+                <a href="indicacoes.html">Indicações</a>
+                <a href="receitas.html">Receitas</a> 
+                <a href="contato.html">Contato</a>
+            </section>  
+        </section>
+    </nav>
+    <main style="height: 800px;">
+       <h1 class="tituloprincipal"> Contato</h1>
+       <p> Dúvidas, sugestões, elogios ou reclamações? Entre em contato conosco.</p>
+       
+       
+        <form action="#" method="GET">
+            <fieldset>
+                <legend>Fale Conosco</legend>
+                <label for="Nome completo"> Nome completo</label>
+                <input type="text" name="nome" id="nome" required> <br> <br>
+                <label for="E-mail"> E-mail</label> 
+                <input type="email" name="email" id="email" required> <br> <br>
+                <label for="telefone">Celular</label>
+                <input type="tel" name="telefone" id="telefone" pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}" placeholder="xx-xxxxx-xxxx" required> <br> <br>
+                <textarea name="mensagem-longa" id="mensagem-longa" cols="30" rows="10"></textarea placeholder= "Digite dúvidas/sugestões aqui..." required > <br>
+                <input type="submit" value="ENVIAR">
+            </fieldset>
+         
+
+        </form>
+    </main>
+
+    <footer>
+        <p id="rodape">Me ENSINA aí <br> <br>
+            Produzido por Thaís Larriane</p>    
+    </footer>
+</body>
+</html>
